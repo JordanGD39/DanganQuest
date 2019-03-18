@@ -15,4 +15,4 @@ You play as Nagito Komaeda. You're a bit weird but that's fine...
 
 
    [LiveDemo]: <http://26260.hosts2.ma-cloud.nl/bewijzenmap/periode%201.3/proj/DanganQuest/>
-   [Map]:<designs/map.png>
+   [Map]:<designs/Map.png>
