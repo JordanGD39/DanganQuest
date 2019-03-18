@@ -1,0 +1,133 @@
+body{
+  background-color: #000;
+  background-image: url(../img/wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: sans-serif, monospace;
+}
+
+.container{
+  width: 900px;
+  margin: auto;
+  background-color: #252431;
+  padding: 20px;
+  border: #d20707 3px solid;
+  border-radius: 10px;
+}
+
+#feedback{
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#possibilities {
+  width: 400px;
+}
+
+#btn_f {
+  position: relative;
+  top: -60px;
+  float: right;
+  margin-right: 38px;
+}
+
+#btn_b {
+  position: relative;
+  top: 0px;
+  float: right;
+  margin-right: -95px;
+}
+
+#btn_l {
+  position: relative;
+  top: -30px;
+  float: right;
+}
+
+#btn_r {
+  position: relative;
+  top: -30px;
+  float: right;
+  right: 30px;
+}
+
+#hitbox {
+  position: absolute;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0;
+  display: inline;
+  transition-duration: 0.2s;
+}
+
+#hitbox:hover {
+  opacity: 0.15;
+}
+
+#hitbox2 {
+  position: absolute;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0;
+  display: inline;
+  transition-duration: 0.2s;
+}
+
+#hitbox2:hover {
+  opacity: 0.15;
+}
+
+.inventoryL {
+  float: left;
+}
+
+.inventoryR {
+  float: right;
+  margin-top: -379px;
+}
+#slot1 {
+  display: block;
+}
+#slot2 {
+  display: block;
+}
+#slot3 {
+  display: block;
+}
+#slot4 {
+  display: block;
+}
+#slot5 {
+  display: block;
+}
+#slot6 {
+  display: block;
+}
+
+#video {
+  position: absolute;
+  margin-left: -700px;
+  display: none;
+}
+#video2 {
+  position: absolute;
+  margin-left: -700px;
+  display: none;
+}
+
+.time {
+  display: block;
+  float: right;
+  margin-top: -50px;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+#Achievment {
+  position: absolute;
+  left: -400px;
+  transition-duration: 1s;
+}

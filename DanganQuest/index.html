@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Jordan Pignato">
+    <title>Danganronpa 2 Strawberry House</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <iframe src="audio/250-milliseconds-of-silence.mp3" allow="autoplay" id="silence" style="display:none"></iframe>
+    <!-- <embed name="music" src="audio/Ikoroshia.mp3"  style="visibilty:hidden; margin:-100px;" autostart="true" id="audio"> -->
+    <audio src="audio/Ikoroshia.mp3" autoplay loop id="audio"></audio>
+    <img src="img/achievments/clear.png" alt="Achievment" id="Achievment" height="200">
+  <div class="container">
+      <H1 id="location">Hier is mijn lokatie</H1>
+      <div class="time">
+        <label id="minutes">00</label>:<label id="seconds">00</label>
+      </div>
+      <div id="hitbox">
+      </div>
+      <div id="hitbox2">
+      </div>
+      <div class="inventoryL">
+        <a href="#" onclick="Slot1()"><img src="img/inventory/empty.png" id="slot1" alt="slot" width="100"></a>
+        <a href="#" onclick="Slot2()"><img src="img/inventory/empty.png" id="slot2" alt="slot" width="100"></a>
+        <a href="#" onclick="Slot3()"><img src="img/inventory/empty.png" id="slot3" alt="slot" width="100"></a>
+      </div>
+      <div class="image">
+          <img id="imageLocation" src="..." width="700" alt="">
+          <video src="video/video.mp4" id="video" width="700"></video>
+          <video src="video/dr1.mp4" id="video2" width="700"></video>
+      </div>
+      <div class="inventoryR">
+        <a href="#" onclick="Slot4()"><img src="img/inventory/empty.png" id="slot4" alt="slot" width="100"></a>
+        <a href="#" onclick="Slot5()"><img src="img/inventory/empty.png" id="slot5" alt="slot" width="100"></a>
+        <a href="#" onclick="Slot6()"><img src="img/inventory/empty.png" id="slot6" alt="slot" width="100"></a>
+      </div>
+        <div id="description">dit is de omschrijving</div>
+      <div id="inventory"></div>
+      <ul id="possibilities"></ul>
+      <div class="buttons">
+        <button type="button" name="button" id="btn_r">Go right</button>
+        <button type="button" name="button" id="btn_f">Go forward</button>
+        <button type="button" name="button" id="btn_b">Go backwards</button>
+        <button type="button" name="button" id="btn_l">Go left</button>
+      </div>
+      <div class="input">
+        <label for="myInput">What are you going to do? </label><input type="text" name="myInput" id="myInput" autofocus>
+      </div>
+      <div id="feedback"></div>
+  </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
